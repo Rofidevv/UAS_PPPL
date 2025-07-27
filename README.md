@@ -1,3 +1,9 @@
+# Website Food Delivery - Ayam Goreng Super Renyah
+
+> Sebuah website multi-halaman yang sepenuhnya responsif dan interaktif untuk brand restoran fiktif "Ayam Goreng Super Renyah". Proyek ini dibangun untuk mendemonstrasikan implementasi fitur-fitur web modern menggunakan HTML5, CSS3, dan JavaScript (ES6+).
+
+Proyek ini mencakup berbagai fungsionalitas, mulai dari animasi, halaman dinamis, hingga simulasi fitur-fitur kompleks seperti live chat dan sistem filter konten.
+
 ## Daftar Isi
 
 1.  Tentang Proyek
