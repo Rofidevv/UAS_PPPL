@@ -1,0 +1,64 @@
+/*=============== HOME ===============*/
+.home{
+   background-color: var(--first-color);
+
+   &__container{
+      padding-block: 4rem 1rem;
+      row-gap: 3rem;
+   }
+   &__data{
+      position: relative;
+      text-align: center;
+   }
+   &__title{
+      font-size: var(--bigger-font-size);
+      margin-bottom: .5rem;
+
+      & span{
+         color: var(--white-color);
+      }
+   }
+   &__description{
+      margin-bottom: 2rem;
+   }
+   &__dam-1,
+   &__dam-2,
+   &__dam-3,
+   &__dam-4,
+   &__dam-5{
+      position: absolute;
+   }
+   &__dam-1{
+      width: 60px;
+      top: 4.5rem;
+      right: -1.5rem;
+   }
+   &__dam-2{
+      width: 80px;
+      top: -3.5rem;
+      left: -2.5rem;
+   }
+   &__images{
+      position: relative;
+      justify-self: center;
+   }
+   &__img{
+      width: 280px;
+      filter: var(--shadow-img);
+   }
+   &__dam-3{
+      width: 60px;
+      top: -2rem;
+      right: -1rem;
+   }
+   &__dam-4{
+      width: 60px;
+      right: .75rem;
+      bottom: -1.25rem;
+   }
+   &__dam-5{
+      width: 80px;
+      top: 5rem;
+      left: -2.5rem;
+   }
+}

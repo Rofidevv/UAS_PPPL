@@ -1,0 +1,14 @@
+/*=============== BUTTON ===============*/
+.button{
+   display: inline-flex;
+   background-color: var(--black-color);
+   color: var(--white-color);
+   padding: 1rem 2rem;
+   font-weight: var(--font-semi-bold);
+   border-radius: .75rem;
+   transition: box-shadow .4s;
+
+   &:hover{
+      box-shadow: 0 8px 24px hsla(0, 0%, 0%, .2);
+   }
+}

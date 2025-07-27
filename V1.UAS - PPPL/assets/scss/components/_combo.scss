@@ -1,0 +1,78 @@
+/*=============== COMBO ===============*/
+.combo{
+   background-color: var(--first-color);
+
+   & .section__title span{
+      color: var(--white-color);
+   }
+   &__container{
+      padding-block: 4rem 9rem;
+   }
+   &__content{
+      position: relative;
+      display: grid;
+   }
+   &__img{
+      width: 320px;
+      justify-self: center;
+      filter: var(--shadow-img);
+      z-index: 5;
+   }
+   &__numbers{
+      position: absolute;
+      top: -3rem;
+      justify-self: center;
+      display: flex;
+      column-gap: 4rem;
+   }
+   &__number{
+      display: grid;
+      row-gap: .25rem;
+      text-align: center;
+
+      & span{
+         font-size: var(--h3-font-size);
+         font-family: var(--second-font);
+      }
+      & i{
+         font-size: 1.25rem;
+      }
+   }
+   &__title{
+      font-size: var(--biggest-font-size);
+      color: var(--white-color);
+      line-height: 110%;
+      letter-spacing: 10px;
+   }
+   &__titles{
+      position: absolute;
+      top: 0;
+      justify-self: center;
+   }
+   &__data{
+      position: absolute;
+      bottom: -3.5rem;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-self: center;
+   }
+   &__info{
+      background-color: var(--white-color);
+      padding: .75rem;
+      border-radius: .5rem;
+      font-size: var(--small-font-size);
+
+      & b{
+         font-family: var(--second-font);
+      }
+   }
+   &__price{
+      background-color: var(--black-color);
+      color: var(--first-color);
+      padding: 1.25rem;
+      border-radius: 1rem;
+      font-size: var(--h1-font-size);
+      font-family: var(--second-font);
+   }
+}
