@@ -1,11 +1,11 @@
 ## Daftar Isi
 
-1.  [Tentang Proyek](## Tentang Proyek)
-2.  [Fitur Utama](https://www.google.com/search?q=%23fitur-utama)
-3.  [Teknologi yang Digunakan](https://www.google.com/search?q=%23teknologi-yang-digunakan)
-4.  [Struktur File](https://www.google.com/search?q=%23struktur-file)
-5.  [Instalasi dan Penggunaan](https://www.google.com/search?q=%23instalasi-dan-penggunaan)
-6.  [Tampilan Proyek](https://www.google.com/search?q=%23tampilan-proyek)
+1.  Tentang Proyek
+2.  Fitur Utama
+3.  Teknologi yang Digunakan
+4.  Struktur File
+5.  Instalasi dan Penggunaan
+6.  Tampilan
 
 ## Tentang Proyek
 
@@ -100,3 +100,12 @@ Proyek ini adalah website statis dan tidak memerlukan proses build.
     ```
 2.  **Buka file `index.html`:**
     Cukup buka file `index.html` di browser favorit Anda untuk memulai.
+
+## Tampilan
+<img width="1850" height="968" alt="Screenshot from 2025-07-27 19-09-42" src="https://github.com/user-attachments/assets/9654d88b-927c-41b4-a6e5-d7183d4a8127" />
+
+<img width="1850" height="968" alt="Screenshot from 2025-07-27 19-09-58" src="https://github.com/user-attachments/assets/e08c677d-3b91-43dc-8dbc-1ce78721729d" />
+
+
+
+
