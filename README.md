@@ -96,15 +96,7 @@ Proyek ini adalah website statis dan tidak memerlukan proses build.
 
 1.  **Clone repositori ini:**
     ```bash
-    git clone https://github.com/[username-anda]/[nama-repositori].git
+    git clone https://github.com/Rofidevv/[nama-repositori].git
     ```
 2.  **Buka file `index.html`:**
     Cukup buka file `index.html` di browser favorit Anda untuk memulai.
-
-## Tampilan Proyek
-
-*(Tambahkan beberapa screenshot atau GIF dari hasil akhir proyek Anda di sini)*
-
------
-
-**Created With ❤️ By Dev**
