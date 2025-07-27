@@ -96,7 +96,7 @@ Proyek ini adalah website statis dan tidak memerlukan proses build.
 
 1.  **Clone repositori ini:**
     ```bash
-    git clone https://github.com/Rofidevv/[nama-repositori].git
+    git clone https://github.com/Rofidevv/UAS_PPPL.git
     ```
 2.  **Buka file `index.html`:**
     Cukup buka file `index.html` di browser favorit Anda untuk memulai.
