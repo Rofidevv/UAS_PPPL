@@ -1,6 +1,6 @@
 ## Daftar Isi
 
-1.  [Tentang Proyek](https://www.google.com/search?q=%23tentang-proyek)
+1.  [Tentang Proyek](## Tentang Proyek)
 2.  [Fitur Utama](https://www.google.com/search?q=%23fitur-utama)
 3.  [Teknologi yang Digunakan](https://www.google.com/search?q=%23teknologi-yang-digunakan)
 4.  [Struktur File](https://www.google.com/search?q=%23struktur-file)
