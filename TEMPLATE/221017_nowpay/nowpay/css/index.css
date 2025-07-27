@@ -1,0 +1,72 @@
+/* General Styling (SAMA SEPERTI SEBELUMNYA) */
+:root {
+    --primary-color: #157bf8;
+    --secondary-color: #f0f6ff;
+    --dark-color: #1a202c;
+    --light-color: #ffffff;
+    --text-color: #4a5568;
+}
+
+html { scroll-behavior: smooth; }
+body { font-family: sans-serif; margin: 0; color: var(--text-color); }
+.container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+.section-title { text-align: center; font-size: 2.5rem; margin-bottom: 50px; color: var(--dark-color); }
+.btn { display: inline-block; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-weight: bold; transition: transform 0.2s ease; }
+.btn:hover { transform: scale(1.05); }
+.btn-primary { background-color: var(--primary-color); color: var(--light-color); }
+.btn-secondary { background-color: var(--light-color); color: var(--primary-color); border: 1px solid var(--primary-color); }
+
+/* Header (SAMA SEPERTI SEBELUMNYA) */
+.header { background: var(--light-color); padding: 20px 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+.header nav { display: flex; justify-content: space-between; align-items: center; }
+.logo { font-size: 1.5rem; font-weight: bold; color: var(--dark-color); text-decoration: none; }
+.logo b { color: var(--primary-color); }
+.nav-links { list-style: none; display: flex; gap: 30px; }
+.nav-links a { text-decoration: none; color: var(--text-color); font-weight: 500; }
+
+/* Hero Section (SAMA SEPERTI SEBELUMNYA) */
+.hero { background: var(--secondary-color); text-align: center; padding: 100px 0; }
+.hero h1 { font-size: 3.5rem; color: var(--dark-color); margin-bottom: 10px; }
+.hero p { font-size: 1.2rem; max-width: 600px; margin: 0 auto 30px auto; }
+#typed-text { color: var(--primary-color); font-weight: bold; }
+.stats-container { display: flex; justify-content: center; gap: 50px; margin-top: 60px; }
+.stat h3 { font-size: 2.5rem; color: var(--dark-color); margin: 0; }
+.stat p { font-size: 1rem; margin: 5px 0 0 0; }
+
+/* Features Section (SAMA SEPERTI SEBELUMNYA) */
+.features { padding: 80px 0; }
+.features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.feature-card { background: var(--light-color); padding: 40px; border-radius: 12px; text-align: center; border: 1px solid #e2e8f0; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.feature-card:hover { transform: translateY(-10px); box-shadow: 0 15px 30px rgba(21, 123, 248, 0.1); }
+.feature-icon { width: 60px; margin-bottom: 20px; }
+
+/* === PENAMBAHAN CSS BARU === */
+/* Security Teaser Section */
+.security-teaser {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    padding: 80px 0;
+    text-align: center;
+}
+.security-teaser .section-title {
+    color: var(--light-color);
+}
+.security-text {
+    max-width: 600px;
+    margin: -30px auto 40px auto;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+/* === AKHIR PENAMBAHAN CSS BARU === */
+
+
+/* Testimonials Section (SAMA SEPERTI SEBELUMNYA) */
+.testimonials { background-color: var(--secondary-color); padding: 80px 0; }
+.testimonial-card { max-width: 700px; margin: 0 auto; text-align: center; }
+.testimonial-card blockquote { font-size: 1.3rem; font-style: italic; margin: 0 0 30px 0; }
+.testimonial-author { display: flex; align-items: center; justify-content: center; gap: 15px; }
+.testimonial-author img { width: 60px; height: 60px; border-radius: 50%; }
+.testimonial-author p { text-align: left; line-height: 1.4; }
+
+/* Footer (SAMA SEPERTI SEBELUMNYA) */
+.footer { text-align: center; padding: 30px 0; border-top: 1px solid #e2e8f0; }

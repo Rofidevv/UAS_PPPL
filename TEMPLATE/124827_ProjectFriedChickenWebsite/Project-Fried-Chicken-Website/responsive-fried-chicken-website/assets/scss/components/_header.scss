@@ -1,0 +1,86 @@
+/*=============== HEADER & NAV ===============*/
+.header{
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   background-color: var(--first-color);
+   z-index: var(--z-fixed);
+   transition: box-shadow .4s;
+}
+
+.nav{
+   position: relative;
+   height: var(--header-height);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   &__logo{
+      display: inline-flex;
+      align-items: center;
+      column-gap: .25rem;
+      
+      & img{
+         width: 1.5rem;
+      }
+      & span{
+         color: var(--black-color);
+         font-weight: var(--font-semi-bold);
+      }
+   }
+   &__toggle,
+   &__close{
+      display: inline-flex;
+      font-size: 1.5rem;
+      cursor: pointer;
+   }
+   // Navigation for mobile devices
+   &__menu{
+      @media screen and (max-width: 1150px){
+         position: fixed;
+         top: 0;
+         right: -100%;
+         background-color: var(--first-color);
+         width: 80%;
+         height: 100%;
+         padding: 8rem 3.5rem 0;
+         box-shadow: -4px 0 16px hsla(0, 0%, 0%, .1);
+         transition: right .4s;
+      }
+   }
+   &__list{
+      display: flex;
+      flex-direction: column;
+      row-gap: 3.5rem;
+   }
+   &__link{
+      color: var(--black-color);
+      font-family: var(--second-font);
+      transition: color .4s;
+
+      &:hover{
+         color: var(--white-color);
+      }
+   }
+   &__close{
+      position: absolute;
+      top: 1rem;
+      right: 1.5rem;
+   }
+}
+
+/* Show menu */
+.show-menu{
+   right: 0;
+}
+
+/* Add shadow header */
+.shadow-header{
+   box-shadow: 0 4px 16px hsla(0, 0%, 0%, .1);
+}
+
+/* Active link */
+.active-link{
+   color: var(--white-color);
+}
